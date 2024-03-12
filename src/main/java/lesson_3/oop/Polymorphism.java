@@ -11,14 +11,14 @@ public class Polymorphism {
     public static class Lada extends Car {
         @Override
         public void drive() {
-            System.out.println("ви-ви-ви-ви-ви-ви-пр-пр-пр-пр");;
+            System.out.println("vi-vi-vi");;
         }
     }
 
     public static class BMW extends Car {
         @Override
         public void drive() {
-            System.out.println("врум-врум");
+            System.out.println("vrvrv");
         }
 
         public void drift() {
